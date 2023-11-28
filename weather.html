@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Weather App</title>
+  <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <div class="container" >
+    <div class="header">
+      <h1>Live Weather</h1>
+      <input type="text" id="cityInput" placeholder="Enter city/state/country name">
+      <button id="searchButton">Search</button>
+    </div>
+
+    <div class="current-weather">
+      <h2>Current Weather</h2>
+      <div class="weather-info">
+        <div id="location"></div>
+        <div id="temperature"></div>
+        <div id="description"></div>
+        <div id="icon"></div>
+      </div>
+    </div>
+  <script src="weather.js"></script>
+</body>
+</html>
